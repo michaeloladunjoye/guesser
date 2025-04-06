@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Guessing</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <h1>Guess the number</h1>
+      <p>Pick a number between 1 and 10</p>
+      <input
+        type="number"
+        id="guessInput"
+        placeholder="Enter your guess"
+        min="1"
+        max="10"
+      />
+
+      <button onclick="checkGuess()">Guess</button>
+
+      <h2 id="resultMessage"></h2>
+      <p id="result"></p>
+    </div>
+
+    <script src="java.js"></script>
+  </body>
+</html>
