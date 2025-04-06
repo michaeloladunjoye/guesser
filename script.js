@@ -18,6 +18,4 @@ function checkGuess() {
     result.style.color = "red";
     resultMessage.style.color = "red";
   }
-  //   console.log("This is the secret number " + secretNumber);
-  //   console.log("This is the guess input " + guessInput);
 }
